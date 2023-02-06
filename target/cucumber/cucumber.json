@@ -1,0 +1,62 @@
+[
+  {
+    "line": 21,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Escenario para busqueda de dueños",
+        "description": "",
+        "id": "busqueda-por-dueño-de-la-mascota;escenario-para-busqueda-de-dueños",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "usuario ingresa a la busqueda de dueños",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "usuario busca por apellido \"jimenez\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "da click en boton buscar",
+            "match": {
+              "location": "stepDefinitions.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "resultados deben contener \"jimenez\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda por dueño de la mascota",
+    "description": "",
+    "id": "busqueda-por-dueño-de-la-mascota",
+    "keyword": "Feature",
+    "uri": "features/busca.feature",
+    "tags": []
+  }
+]
